@@ -3,19 +3,19 @@
 Stored Procedure - Load Bronze Layer
 -------------------------------------------------------------
 Purpose: 
-Creates bronze.load_bronze stored procedure that:
-Truncates ALL bronze tables 
-BULK INSERTs raw CSV data from source 
-Times each table load with start/end timestamps
+- Creates bronze.load_bronze stored procedure that:
+- Truncates ALL bronze tables 
+- BULK INSERTs raw CSV data from source 
+- Times each table load with start/end timestamps
 
 Usage Example:
-EXEC [bronze].load_bronze;
+- EXEC [bronze].load_bronze;
 
 Parameters:
-None, This stored procedure does not accept any parameters or return any values.
+- None, This stored procedure does not accept any parameters or return any values.
 
 Warning: 
-Empties ALL bronze tables before loading
+- Empties ALL bronze tables before loading
 
 -------------------------------------------------------------
 
